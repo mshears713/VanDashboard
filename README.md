@@ -4,11 +4,19 @@ A Raspberry-Pi-based vehicle dashboard system displayed on an Android phone via 
 
 ## Project Structure
 
-- `backend/`: Server and APIs (Python/Node.js).
-- `frontend/`: TypeScript-based web UI.
-- `docs/`: Architecture diagrams and technical notes.
-- `scripts/`: Helper scripts for deployment and development.
-- `config/`: Configuration templates for the Pi and services.
+This project is organized into modular directories, each containing its own **`AGENTS.md`** for detailed technical guidance.
+
+- `backend/`: Server logic & hardware orchestration. ([README](backend/README.md) | [AGENTS](backend/AGENTS.md))
+- `frontend/`: High-visibility TS/Web UI. ([README](frontend/README.md) | [AGENTS](frontend/AGENTS.md))
+- `docs/`: Master blueprints, architecture, and workflows. ([AGENTS](docs/AGENTS.md))
+- `scripts/`: Deployment & maintenance automation. ([AGENTS](scripts/AGENTS.md))
+- `config/`: Infrastructure & environment templates. ([AGENTS](config/AGENTS.md))
+
+### Documentation Quick Links
+- [Architecture Overview](docs/ARCHITECTURE.md)
+- [Development Workflow](docs/WORKFLOW.md)
+- [Runtime Model](docs/RUNTIME_MODEL.md)
+- [Operating Modes](docs/MODES.md)
 
 ## Local Development (WSL/Windows)
 

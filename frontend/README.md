@@ -1,10 +1,6 @@
 # Frontend Dashboard
 
-The TypeScript-based web interface for the VanDashboard.
-
-## Tech Stack
-- TypeScript
-- (Framework to be determined, e.g., React/Vite)
+The TypeScript-based web interface for the VanDashboard vehicle HUD.
 
 ## Development
 ```bash
@@ -12,8 +8,11 @@ npm install
 npm run dev
 ```
 
-## Building for Production
+## Production Build
 ```bash
 npm run build
 ```
-The output will be generated in `dist/`, which should be served by the backend.
+This command generates the `dist/` folder which is consumed by the backend.
+
+## AGENTS.md
+Technical specifications and UI coding standards are located in [AGENTS.md](AGENTS.md).

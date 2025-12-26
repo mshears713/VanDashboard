@@ -1,12 +1,12 @@
 # Backend Server
 
-This directory contains the server logic for the VanDashboard.
+This is the core server for the VanDashboard.
 
 ## Responsibilities
-- Serve the `frontend/dist` static files.
-- Provide API endpoints for vehicle data.
-- Manage camera streams.
-- Interface with OBD-II/hardware.
+- Serve the `frontend/dist` directory.
+- Manage camera streams (MJPEG/HLS).
+- Fetch data from OBD-II and other sensors.
+- Maintain the System Health API.
 
-## Getting Started
-(Placeholder for specific language setup, e.g., `pip install` or `npm install`)
+## AGENTS.md
+Technical specifications and coding standards for this folder are located in [AGENTS.md](AGENTS.md).
